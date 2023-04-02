@@ -12,12 +12,12 @@ Day: 2023-04-02.
 * This binary was created using the offical way described in the `install.txt` file.
 	* Lines 1113 through 1163:
 		* Microsoft Windows, Visual Studio 2022 Version 17:
-		* nmake /f makefile.vs setupcopy-v17
-		* Open the solution file jpeg.sln, build the library project.
-		* Open the solution file apps.sln, build the application projects.
+		* `nmake /f makefile.vs setupcopy-v17`
+		* Open the solution file `jpeg.sln`, build the library project.
+		* Open the solution file `apps.sln`, build the application projects.
 		* To perform the self-test, execute the command line
-			* nmake /f makefile.vs test-32
-			* nmake /f makefile.vs test-64
+			* `nmake /f makefile.vs test-32`
+			* `nmake /f makefile.vs test-64`
 * Other noticeable moments of the `install.txt` file are listed below.
 	* Line 134. Configuring the software using one of the supplied jconfig and makefile files.
 	* Line 212. Command line style.
