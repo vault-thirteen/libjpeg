@@ -27,3 +27,22 @@ Day: 2023-04-02.
 	* Line 940. Many people want to convert the IJG library into a DLL.
 	* Line 972. The unmodified IJG library presents a very C-specific application interface, so the resulting DLL is only usable from C or C++ applications.
 	* Line 1113. Microsoft Windows, Visual Studio 2022 Version 17.
+
+## Integrity Meta Data
+
+Integrity can be verified using following parameters:
+* File sizes
+	* See the `file_sizes.txt` file, [Link](./file_sizes.txt).
+
+
+* CRC32 check sums
+	* See the `crc32_sums.txt` file, [Link](./crc32_sums.txt).
+
+
+* SHA-256 check sums
+	* See the `sha256_sums.txt` file, [Link](./sha256_sums.txt).
+
+**Notes**
+
+Checks of hash sums & sizes can be performed with a `Hasher` tool.  
+Hasher's repository: https://github.com/vault-thirteen/Hasher
